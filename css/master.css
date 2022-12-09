@@ -1,0 +1,1039 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  transition: all 1s;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  border: 0;
+  display: inline-block;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+.yellowcolor {
+  color: #e2a325;
+}
+
+.bg-yellow {
+  background: #e2a325;
+}
+
+.bluecolor {
+  color: #232176;
+}
+
+.bgcolor {
+  background: #232176;
+}
+
+.borderleft {
+  border-left: #fff solid 5px;
+}
+
+.fs1-heading {
+  font-size: 3.2rem;
+  line-height: 60px;
+}
+
+.mainNavigations {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px 10px;
+  z-index: 999;
+}
+
+.navlinks ul li {
+  position: relative;
+}
+
+.navlinks ul li a {
+  padding: 7px 25px;
+  color: #fff;
+  border: transparent solid 4px;
+  font-size: 1.6rem;
+  margin: 0px 7px;
+}
+
+.navlinks ul li:hover > a {
+  background: #fff;
+  color: #000;
+  border-radius: 42px;
+  border: #e2a325 solid 4px;
+}
+
+.navlinks ul li a.active {
+  background: #fff;
+  color: #000;
+  border-radius: 42px;
+  border: #e2a325 solid 4px;
+}
+
+.dropdownMenu:hover .navlinks ul li a {
+  background: #fff;
+  color: #000;
+  border-radius: 42px;
+  border: #e2a325 solid 4px;
+}
+
+.dropdownMenu {
+  border: #e2a325 solid 1px;
+  position: absolute;
+  top: 100%;
+  margin-top: 10px;
+  left: 15px;
+  width: 100%;
+  background: #fff;
+  max-width: 400px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.navlinks ul li:hover .dropdownMenu {
+  opacity: 1;
+  visibility: visible;
+  top: 45px;
+}
+
+.dropdownMenu ul {
+  display: block;
+  text-align: left;
+}
+
+.dropdownMenu ul li a {
+  padding: 12px 0px 12px 15px;
+  color: #000;
+  border-radius: 0px;
+  display: block;
+  margin: 0px;
+}
+
+.dropdownMenu ul li a:hover {
+  background: #252378;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+}
+
+.navlinks ul li span {
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.innercaptions {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.masterBanner {
+  position: relative;
+}
+.carousel-item {
+  position: relative;
+}
+
+.bannerCaptions {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+
+.bannerCaptions h1 {
+  color: #fff;
+  font-size: 62px;
+  font-weight: 300;
+}
+
+.bannerCaptions h1 span {
+  display: block;
+  text-align: right;
+  font-weight: 700;
+}
+
+.bannerCaptions {
+  width: 100%;
+  max-width: 650px;
+}
+
+.commonSections {
+  padding: 70px 0px;
+}
+
+.leaderImg {
+  position: relative;
+}
+
+.leaderImg img {
+  border: 15px solid #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.leaderImg::before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 60%;
+  left: -14px;
+  top: 80px;
+  background: #e2a325;
+  position: absolute;
+}
+
+.headingtext h2 {
+  position: relative;
+  color: #252378;
+  font-weight: 700;
+  font-size: 4rem;
+  margin-left: 20px;
+}
+
+.headingtext h2::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 100%;
+  background: #e2a325;
+  position: absolute;
+  left: -30px;
+}
+
+.headingText {
+  padding-top: 15px;
+}
+
+.headingText p a {
+  font-size: 1.9rem;
+  text-align: left;
+  color: #252378;
+  text-decoration: none;
+}
+
+.valuebox ul li a {
+  font-size: 1.6rem;
+  border: #ccc solid 1px;
+  padding: 7px 22px;
+  border-radius: 4px;
+  color: #000;
+}
+
+.valuebox ul li a:hover {
+  background: #e2a325;
+  color: #fff;
+  border: #e2a325 solid 1px;
+}
+
+.becomeLeft {
+  background: #3a3b3f;
+  margin: 50px 0px;
+}
+
+.becomeRight {
+  background: #e2a325;
+}
+
+.becomeRight p {
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+}
+
+.becomeRight h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.becomeLeft ul li a {
+  padding: 7px 10px 7px 40px;
+  transition: all 0.5s;
+}
+.becomeLeft ul li a:hover {
+  background: #191a1c;
+  color: #fff;
+}
+.becomeLeft ul li a.active {
+  background: #191a1c;
+  color: #fff;
+}
+
+.becomeContent h3 {
+  letter-spacing: 2.5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2;
+  opacity: 0.5;
+}
+
+.roundIcons {
+  width: 83px;
+  height: 83px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.becomeRight {
+  position: relative;
+  padding: 170px 225px 0px 40px;
+}
+
+.becomeRight::before {
+  content: "";
+  position: absolute;
+  left: -70px;
+  top: 110px;
+  height: 560px;
+  width: 570px;
+  border: #fff solid 10px;
+}
+
+.becomeRight::after {
+  content: "";
+  position: absolute;
+  right: 135px;
+  top: 230px;
+  height: 203px;
+  width: 20px;
+  background: #fff;
+}
+
+.footerOuter {
+  border-top: #232176 solid 10px;
+  background: #fff;
+  position: relative;
+  margin-top: 150px;
+}
+
+.footerOuter::before {
+  content: "";
+  width: 100%;
+  height: 580px;
+  position: absolute;
+  bottom: 0;
+  z-index: -999;
+  background: url(../images/shape-bg.png) top center no-repeat;
+}
+
+.addresscolm h4 {
+  letter-spacing: 2.67px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.addresscolm {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.becomeRight::after {
+  content: "";
+  position: absolute;
+  right: 135px;
+  top: 150px;
+  height: 203px;
+  width: 20px;
+  background: #fff;
+}
+
+.footerOuter {
+  border-top: #232176 solid 10px;
+  background: #fff;
+  position: relative;
+  margin-top: 250px;
+}
+
+.footerOuter::before {
+  content: "";
+  width: 100%;
+  height: 530px;
+  position: absolute;
+  bottom: 0;
+  z-index: -999;
+  background: url(../img/shape-bg.png) top center no-repeat;
+}
+
+.addresscolm h4 {
+  letter-spacing: 2.67px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.addresscolm {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.topmrgin {
+  margin-top: -250px;
+}
+
+.topplmg {
+  margin-top: 210px;
+}
+
+.sticky {
+  background: #000000a3;
+}
+
+.productAbout {
+  background: #232176;
+}
+
+.innheaderstky {
+  position: sticky !important;
+  background: #fff;
+}
+
+.innheaderstky .navlinks ul li a {
+  color: #000;
+}
+
+.insideborder {
+  border-left: #e2a325 solid 7px;
+  padding-left: 30px;
+}
+.aboutbg h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 4rem;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.aboutbg figure img {
+  border: 15px solid #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  border-radius: 0px 0 7px 7px;
+}
+
+.productAbout {
+  position: relative;
+}
+
+.productAbout::after {
+  content: "";
+  display: block;
+  background: url(../img/aboutdownbg.png) bottom no-repeat;
+  height: 400px;
+  position: absolute;
+  bottom: -300px;
+  width: 100%;
+  z-index: -9;
+}
+
+.innnheading h2 {
+  color: #232176;
+  font-size: 4.8rem;
+  font-weight: 600;
+  border-bottom: #e2a325 solid 10px;
+  display: inline-block;
+  padding-right: 100px;
+  padding-bottom: 20px;
+}
+
+.innnheading p {
+  font-size: 1.6rem;
+}
+
+.ComponentsCard {
+  border-bottom: #e2a325 solid 1px;
+  border-right: #e2a325 solid 1px;
+  padding: 45px 30px;
+  height: 100%;
+  min-height: 240px;
+}
+
+.ComponentsCard h3 {
+  color: #232176;
+  font-size: 4rem;
+  font-weight: 600;
+  border-left: #e2a325 solid 7px;
+  padding-left: 20px;
+}
+
+.ComponentsCard p {
+  padding-top: 15px;
+  line-height: 32px;
+  font-size: 1.8rem;
+}
+
+.ComponentsCard ul li {
+  position: relative;
+  font-size: 2rem;
+  padding: 7px 30px;
+}
+.ComponentsCard ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #e2a325;
+  position: absolute;
+  left: 0px;
+  top: 16px;
+  border-radius: 100%;
+}
+.ComponentsCard ul li ul li {
+  font-size: 1.6rem;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+.ComponentsCard ul li ul li::before {
+  background: #232176;
+  width: 7px;
+  height: 7px;
+}
+
+.lefttrengle,
+.rightrengle {
+  position: relative;
+  overflow: hidden;
+}
+
+.ComponetSec.lefttrengle:before {
+  width: 100%;
+  height: 100%;
+  background-color: #f9edd3;
+  position: absolute;
+  content: "";
+  left: 0px;
+  z-index: -1;
+  top: 0px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.ComponetSec.rightrengle:after {
+  width: 100%;
+  height: 100%;
+  background-color: #f9edd3;
+  position: absolute;
+  content: "";
+  top: 0px;
+  z-index: -1;
+  right: 0px;
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.missionIcons {
+  background: url(../img/mission_bg.png) no-repeat;
+  width: 216px;
+  height: 198px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.missionCard {
+  padding: 0px 20px 0 50px;
+  border-left: #e2a325 solid 1px;
+}
+
+.missionCard h2 {
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+
+.listing ul li {
+  position: relative;
+  padding: 15px 0px 0 25px;
+  font-size: 1.6rem;
+}
+
+.listing ul li::before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border: #232176 solid 3px;
+  border-radius: 100%;
+  position: absolute;
+  left: 0px;
+  top: 22px;
+}
+
+.aboutusCard {
+  padding: 150px 0 30px 0;
+}
+
+.aboutusCard p {
+  font-size: 2rem;
+  line-height: 45px;
+}
+
+.aboutusCard .headingtext h2 {
+  padding: 35px 0 0px 30px;
+}
+
+.aboutusCard .headingText {
+  padding: 60px 35px 0 30px;
+}
+
+.aboutusCard .headingtext h2::before {
+  background: #252378;
+  left: 0px;
+  top: 28px;
+}
+
+.productno {
+  text-align: center;
+}
+
+.nooneheading {
+  text-align: left;
+}
+
+.nooneheading h4 {
+  font-size: 16rem;
+  font-weight: 800;
+  color: #e2a325;
+}
+
+.contectForm [type="text"] {
+  height: 48px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.contectForm textarea {
+  resize: none;
+}
+
+.btn-primary {
+  background: #e2a325;
+  text-transform: uppercase;
+  border: #e2a325 solid 1px;
+  padding: 12px 32px;
+  font-size: 1.6rem;
+}
+
+.btn-primary:hover {
+  background: #e2a325;
+  border: #e2a325 solid 1px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: inherit;
+  width: auto;
+  opacity: 1;
+  margin: 25px 0px;
+}
+
+#masterslider .carousel-control-next-icon,
+#masterslider .carousel-control-prev-icon {
+  background: #fff;
+  color: #707070;
+  opacity: 1;
+  border-radius: 100%;
+  height: 75px;
+  width: 75px;
+  border: #ccc solid 2px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  margin: 0px 7px;
+}
+
+#masterslider .carousel-indicators {
+  right: 40px;
+  left: auto;
+  bottom: 38%;
+}
+#masterslider .carousel-indicators [data-bs-target] {
+  border: #ccc solid 20px;
+  border-radius: 100%;
+  background: none;
+  width: 40px;
+  height: 40px;
+  text-indent: inherit;
+  font-size: 2rem;
+  opacity: 1;
+  color: #fff;
+  position: relative;
+}
+#masterslider .carousel-indicators .active {
+  border: #e2a325 solid 20px;
+  background: #fff;
+  color: #000;
+}
+#masterslider .carousel-indicators .active::before {
+  content: "";
+  width: 1px;
+  height: 180px;
+  background: #e2a325;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 60px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#caspiantabsslide .carousel-indicators {
+  position: static;
+}
+
+#caspiantabsslide .carousel-indicators [data-bs-target] {
+  width: inherit;
+  height: inherit;
+  text-indent: inherit;
+  border: none;
+  background: transparent;
+  margin: 0;
+}
+
+#caspiantabsslide .carousel-inner {
+  width: 50%;
+}
+
+.becomebg {
+  position: relative;
+}
+
+.becomeRight {
+  position: relative;
+}
+.becomeRight::after {
+  content: "";
+  width: 455px;
+  height: 194px;
+  position: absolute;
+  top: -120px;
+  right: 0px;
+  background: url(../img/shape-bg-1.png) no-repeat;
+  z-index: -9;
+}
+.becomeLeft {
+  position: relative;
+}
+.becomeLeft::before {
+  content: "";
+  width: 1500px;
+  height: 700px;
+  position: absolute;
+  left: 0;
+  bottom: -120px;
+  background: url(../img/shape-bg.png) no-repeat;
+
+  /* background: url(../img/shape-bg-2.png) no-repeat; */
+  z-index: -9;
+}
+
+.contectborder {
+  border-right: #e2a325 solid 1px;
+  padding-right: 50px;
+}
+
+@media screen and (max-width: 1368px) {
+  .becomeRight::after {
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .menubar {
+    cursor: pointer;
+    border: #fff solid 1px;
+    z-index: 99;
+  }
+
+  .menubar a {
+    color: #000;
+    width: 32px;
+    height: 4px;
+    display: block;
+    z-index: 99;
+    margin: 7px 7px 7px 7px;
+    background: #fff;
+  }
+
+  .navlinks {
+    left: -300px;
+    top: 0;
+    position: fixed;
+    transition: all 1s;
+  }
+
+  .navlinks ul {
+    background: #e2a325;
+    height: 100vh;
+    padding-top: 30px;
+  }
+
+  .dropdownMenu {
+    transition: none;
+  }
+
+  .closemenu {
+    position: absolute;
+    right: -30px;
+    left: auto;
+    top: 0px;
+    font-size: 18px;
+    color: #000;
+    background: #fff;
+    padding: 2px 10px;
+  }
+
+  .leftmenucard {
+    left: 0px;
+  }
+
+  .leftmenucard::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0;
+    z-index: -9999;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.596);
+    position: fixed;
+  }
+
+  .navlinks ul li a {
+    padding: 7px 25px;
+  }
+
+  .headingtext h2::before {
+    left: -20px;
+  }
+
+  .becomeRight {
+    padding: 25px;
+  }
+
+  .becomeRight::after,
+  .becomeRight::before {
+    display: none;
+  }
+
+  .topmrgin,
+  .topplmg {
+    margin-top: 0px;
+  }
+  .addresscolm {
+    width: auto;
+    max-width: auto;
+  }
+
+  .aboutbg figure img {
+    margin-top: 0px;
+  }
+
+  .aboutbg h1 {
+    font-size: 4.2rem;
+  }
+
+  .aboutusCard p {
+    font-size: 1.8rem;
+    line-height: 32px;
+  }
+
+  .aboutusCard {
+    padding: 15px 0 15px 0;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    border-width: 7px;
+  }
+
+  .bannerCaptions {
+    max-width: 450px;
+  }
+  .bannerCaptions h1 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .innheaderstky {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .commonSections {
+    padding: 40px 0px;
+  }
+
+  .becomeLeft {
+    margin: 0px;
+  }
+
+  .becomeContent h3 {
+    font-size: 1.6rem;
+  }
+
+  .productAbout {
+    margin-top: 0px;
+  }
+
+  .footerOuter {
+    margin-top: 0px;
+  }
+
+  .fs1-heading {
+    font-size: 2.2rem;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .missionCard {
+    padding: 0px;
+    border: none;
+    padding-top: 20px;
+  }
+
+  .aboutusCard .headingText {
+    padding: 0px 30px;
+  }
+
+  .nooneheading {
+    text-align: center;
+  }
+
+  .ComponentsCard {
+    border: none;
+    border-bottom: #e2a325 solid 1px;
+    padding: 20px 10px;
+  }
+
+  .navlinks ul li a {
+    margin: 0px;
+    border: none;
+    width: 100%;
+  }
+
+  .navlinks ul li a:hover {
+    border-radius: 0px;
+    border: none;
+  }
+
+  .navlinks ul li a.active {
+    border-radius: inherit;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+  }
+
+  .dropdownMenu ul {
+    height: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    background: #fff;
+  }
+
+  .dropdownMenu {
+    display: none;
+    visibility: visible;
+    opacity: 1;
+    position: static;
+  }
+
+  .navlinks ul li:hover .dropdownMenu {
+    top: inherit;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bannerCaptions {
+    max-width: 200px;
+    top: 58%;
+  }
+  .bannerCaptions h1 span {
+    text-align: left;
+  }
+
+  .commonSections {
+    padding: 10px 0px;
+  }
+
+  .bannerCaptions h1 {
+    font-size: 3.5rem;
+  }
+
+  .headingtext h2::before {
+    left: 0px;
+  }
+
+  .leaderImg img {
+    border: #e2a325 solid 14px;
+  }
+
+  .leaderImg::before {
+    display: none;
+  }
+
+  .footerOuter {
+    margin-top: 40px;
+  }
+
+  .headingtext h2 br {
+    display: none;
+  }
+
+  .headingtext h2 {
+    font-size: 2.4rem;
+    margin: 10px 0px;
+    padding-left: 15px;
+  }
+
+  html {
+    font-size: 55.5%;
+  }
+
+  br {
+    display: none;
+  }
+
+  .ComponetSec.lefttrengle:before,
+  .ComponetSec.rightrengle:after {
+    display: none;
+  }
+
+  .aboutusCard .headingtext h2::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .aboutusCard p {
+    font-size: 1.6rem;
+    line-height: 30px;
+  }
+
+  .aboutusCard .headingtext h2 {
+    padding: 0px 0 0px 30px;
+  }
+}
